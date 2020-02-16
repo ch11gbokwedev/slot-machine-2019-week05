@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+.leftContainer {
+  width: 75%;
+  height: 900px;
+  float: left;
+  text-align: center;
+  align-content: center;
+  background-color: rgb(208, 8, 0);
+}
+
+.rightContainer {
+  width: 25%;
+  height: 900px;
+  float: left;
+  background-image: url("../images/casinoart.jpg");
+  background-size: cover;
+}
+
+.rightContainer img {
+  width: 45%;
+}
+
+.reelSec {
+  width: 100%;
+  height: 450px;
+  background: black;
+  overflow: auto;
+}
+.reelSec img {
+  width: 90%;
+  height: 420px;
+  overflow: auto;
+}
+
+.monitorBets {
+  width: 100%;
+  min-height: 450px;
+}
+
+.monitorBets section {
+  text-align: center;
+  float: left;
+  width: 50%;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+h2 {
+  font-size: 40px;
+  color: gold;
+}
+.reelImage {
+  width: 33.3333%;
+  height: 100%;
+  border: 1px solid white;
+  float: left;
+}
+
+.monitorBets button {
+  width: 20%;
+  font-size: 25px;
+  background-color: green;
+  margin: 2%;
+}
+
+.monitorBets button:last-of-type {
+  width: 75%;
+  height: 15%;
+  font-size: 35px;
+  color: black;
+  background-image: url("../images/goldcoins.jpeg");
+}
